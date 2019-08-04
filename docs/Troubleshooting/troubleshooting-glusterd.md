@@ -90,6 +90,8 @@ In this case the value of the state field in /var/lib/glusterd/peers/<UUID> will
 * Change state to 3
 * Start glusterd
 
+**"RPMNEW files"**
+Verify and ronconcile .rpmnew files, specifically for /etc/glusterd/glusterd.vol post upgrade. Changes occured between version 4.1 and 6.x. Specifically now there are explicit port directives for the glusterd service to interact with peers. This can cause issues with peer status appearing as 'disconnected'.
 
 
 
