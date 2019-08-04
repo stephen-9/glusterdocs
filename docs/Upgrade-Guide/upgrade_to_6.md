@@ -9,6 +9,8 @@ Refer, to the [Upgrading to 4.1](./upgrade_to_4.1.md) guide and follow
 documented instructions, replacing 6 when you encounter 4.1 in the guide as the
 version reference.
 
+Verify and ronconcile and .rpmnew files, specifically for glusterd.vol.
+
 ### Major issues
 
 1. The following options are removed from the code base and require to be unset
